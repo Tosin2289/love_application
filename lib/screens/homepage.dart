@@ -163,8 +163,7 @@ class _HomeState extends State<Home> {
               SizedBox(
                 height: 30.0,
               ),
-              OutlineButton(
-                color: Colors.purple,
+              OutlinedButton(
                 onPressed: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) {
                     return Result(

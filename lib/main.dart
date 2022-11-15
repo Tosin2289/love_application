@@ -8,9 +8,11 @@ class Myapp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      theme: ThemeData(
+        primarySwatch: Colors.red,
+      ),
       debugShowCheckedModeBanner: false,
-      themeMode: ThemeMode.system,
       home: Home(),
     );
   }
